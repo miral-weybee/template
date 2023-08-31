@@ -24,6 +24,211 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #002d5b;
+            --second-color: #ff656a;
+            --white: #ffffff;
+            --dark: #506172;
+            --bgcolor: #f6f9fe;
+            --primary-font: 'Rubik', sans-serif;
+            --second-font: 'Sarabun', sans-serif;
+        }
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            box-sizing: border-box
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: 42px;
+            font-family: var(--primary-font);
+            line-height: 1.5;
+            width: 100%;
+            margin-bottom: 0
+        }
+
+        ol,
+        p,
+        ul {
+            font-family: var(--second-font)
+        }
+
+        p {
+            text-align: justify;
+            font-size: 16px;
+            line-height: 30px;
+            margin-bottom: 0;
+            
+        }
+
+
+        .photo-gallery-item span,
+        a {
+            font-family: var(--primary-font)
+        }
+
+        a {
+            text-decoration: none !important
+        }
+
+        img {
+            width: 100%;
+            height: auto
+        }
+
+        .spad {
+            padding: 90px 0
+        }
+
+
+
+
+
+        .photo-gallery-item span {
+            background-color: var(--primary-color);
+            padding: 10px 0
+        }
+
+
+
+
+
+        .photo-gallery-inside {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center
+        }
+
+        .photo-gallery-item {
+            width: 30%;
+            border: 1px solid #a5a5a530;
+            padding: 10px;
+        }
+
+        .photo-gallery-item span {
+            text-align: center;
+            display: block;
+            color: var(--bgcolor);
+            margin-bottom: 10px
+        }
+
+        @media only screen and (max-width:1024px) {
+
+            .newsletter .title,
+            .newsletter form {
+                width: 100%;
+                text-align: center
+            }
+
+            .newsletter .form-row {
+                justify-content: center;
+                margin-top: 20px
+            }
+        }
+
+        @media only screen and (max-width:991px) {
+
+            .main-header,
+            .nav-inside,
+            .navbar-toggler {
+                display: block
+            }
+
+            .nav-inside,
+            .nav-items {
+                max-height: 80px
+            }
+
+            .navbar-brand img {
+                max-width: 250px;
+                max-height: 70px
+            }
+
+            .navbar-collapse .navbar-nav {
+                flex-direction: column;
+                opacity: 0;
+                height: 0;
+                transition: .5s;
+                visibility: hidden
+            }
+
+            .navbar-collapse.show .navbar-nav {
+                height: 100%;
+                visibility: visible;
+                opacity: 1;
+               
+                z-index: 1;
+                padding: 15px
+            }
+
+            .navbar-collapse.show .navbar-nav .dropdown-menu {
+                position: relative;
+                top: 10px;
+                left: 10px;
+                max-width: 100%
+            }
+
+            .dropdown:after {
+                top: 10px
+            }
+
+            .photo-gallery-item {
+                width: 28%
+            }
+
+            .footer-items:first-child {
+                width: 100%
+            }
+        }
+
+        @media only screen and (max-width:768px) {
+            
+
+            .photo-gallery-item {
+                width: 43.5%
+            }
+        }
+
+        @media only screen and (max-width:767px) {
+            
+
+            .footer-items {
+                width: 100%
+            }
+        }
+
+        @media only screen and (max-width:575px) {
+            h1 {
+                font-size: 36px
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 28px;
+            }
+
+            .spad {
+                padding: 40px 0
+            }
+
+            .main-footer {
+                padding: 20px 0
+            }
+
+            .photo-gallery-item {
+                width: 100%
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -121,8 +326,75 @@
     <!-- Page Header End -->
 
 
+    <div class="photo-gallery spad">
+        <div class="container">
+            <div class="photo-gallery-inside">
+                <div class="photo-gallery-item">
+                    <span>Image Title</span>
+                    <a href="images/gallery.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
+                    </a>
+                </div>
+                <div class="photo-gallery-item">
+                    <span>Image Title</span>
+                    <a href="images/gallery.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
+                    </a>
 
+                </div>
+                <div class="photo-gallery-item">
+                    <span>Image Title</span>
+                    <a href="images/gallery.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
+                    </a>
 
+                </div>
+                <div class="photo-gallery-item">
+                    <span>Image Title</span>
+                    <a href="images/gallery.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
+                    </a>
+
+                </div>
+                <div class="photo-gallery-item">
+                    <span>Image Title</span>
+                    <a href="images/gallery.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
+                    </a>
+
+                </div>
+                <div class="photo-gallery-item">
+                    <span>Image Title</span>
+                    <a href="images/gallery.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
+                    </a>
+
+                </div>
+                <div class="photo-gallery-item">
+                    <span>Image Title</span>
+                    <a href="images/gallery.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
+                    </a>
+
+                </div>
+                <div class="photo-gallery-item">
+                    <span>Image Title</span>
+                    <a href="images/gallery.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
+                    </a>
+
+                </div>
+                <div class="photo-gallery-item">
+                    <span>Image Title</span>
+                    <a href="images/gallery.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery Section End-->
 
     <!-- Footer Start -->
     <div class="footer">
@@ -176,8 +448,7 @@
             </div>
         </div>
         <div class="container copyright">
-            <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved. Designed By <a
-                    href="https://htmlcodex.com">HTML Codex</a></p>
+            <p>Copyright&copy; 2023 Lorem Ipsum All rights reserved.</a><br>Powered By <a href="https://socialsparsh.com">Social Sparsh</a></p>
         </div>
     </div>
     <!-- Footer End -->
@@ -206,4 +477,4 @@
     <script src="js/main.js"></script>
 </body>
 
-</html> 
+</html>

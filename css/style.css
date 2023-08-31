@@ -237,7 +237,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: var(--dark)
+    background: black;
 }
 
 .nav-bar.nav-sticky {
@@ -251,7 +251,7 @@ a:focus {
 
 .nav-bar .navbar {
     padding: 20px 0;
-    background: var(--dark) !important;
+    background: black !important;
     transition: .3s;
 }
 
@@ -1290,14 +1290,14 @@ a:focus {
 
 .blog .blog-meta {
     display: flex;
+    justify-content: center;
 }
 
 .blog .blog-meta p {
-    margin: 0;
+    margin: 1em 0;
     font-size: 14px;
     line-height: 14px;
     padding: 0 10px;
-    border-right: 1px solid rgba(0, 0, 0, .15);
 }
 
 .blog .blog-meta p:first-child {
