@@ -272,7 +272,7 @@ a:focus {
 .carousel {
     position: relative;
     width: 100%;
-    min-height: 400px;
+    /* min-height: 400px; */
     background: #ffffff;
     margin-bottom: 45px;
 }
@@ -284,7 +284,7 @@ a:focus {
 .carousel .carousel-item {
     position: relative;
     width: 100%;
-    min-height: 400px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -295,7 +295,7 @@ a:focus {
     position: relative;
     width: 100%;
     height: 100%;
-    min-height: 400px;
+    height: 100vh;
     text-align: right;
     overflow: hidden;
 }
@@ -417,12 +417,6 @@ a:focus {
 
     .carousel .carousel-text p {
         font-size: 16px;
-    }
-
-    .carousel .carousel-text .btn {
-        padding: 12px 30px;
-        font-size: 15px;
-        letter-spacing: 0;
     }
 }
 
@@ -762,221 +756,6 @@ a:focus {
     margin: 0;
 }
 
-
-/*******************************/
-/********* Pricing CSS *********/
-/*******************************/
-.price {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
-}
-
-.row {
-    padding: 0 15px;
-    margin: .5em;
-}
-
-
-.price .col-md-4 {
-    padding: 0;
-}
-
-.price .price-item {
-    position: relative;
-    margin-bottom: 30px;
-    background: #ffffff;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.price .featured-item {
-    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
-    z-index: 1;
-}
-
-.price .price-header {
-    padding: 45px 0 30px 0;
-}
-
-.price .price-header h3 {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.price .price-header h2 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    font-size: 60px;
-    font-weight: 700;
-    letter-spacing: 5px;
-}
-
-.price .price-header h2 span {
-    font-size: 25px;
-    line-height: 55px;
-}
-
-.price .price-item.featured-item h2,
-.price .price-item.featured-item h3 {
-    color: #2f57a1;
-}
-
-.price .price-body {
-    padding: 0 0 20px 0;
-}
-
-.price .price-body ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.price .price-body ul li {
-    padding: 0 0 15px 0;
-}
-
-.price .price-body ul li i {
-    margin-right: 10px;
-}
-
-.price .price-body ul li i.fa-check-circle {
-    color: #39B972;
-}
-
-.price .price-body ul li i.fa-times-circle {
-    color: #cccccc;
-}
-
-.price .price-item .price-footer {
-    padding-bottom: 45px;
-}
-
-.price .price-item .price-footer .btn.btn-custom {
-    color: #2f57a1;
-    background: #202C45;
-    box-shadow: inset 0 0 0 0 #2f57a1;
-}
-
-.price .price-item .price-footer .btn.btn-custom:hover {
-    color: #ffffff;
-    background: #2f57a1;
-    box-shadow: inset 200px 0 0 0 #2f57a1;
-}
-
-.price .price-item.featured-item .price-footer .btn.btn-custom {
-    color: #ffffff;
-    background: #2f57a1;
-    box-shadow: inset 0 0 0 0 #202C45;
-}
-
-.price .price-item.featured-item .price-footer .btn.btn-custom:hover {
-    color: #2f57a1;
-    background: #202C45;
-    box-shadow: inset 200px 0 0 0 #202C45;
-}
-
-
-/*******************************/
-/******** Location CSS *********/
-/*******************************/
-.location {
-    position: relative;
-    width: 100%;
-    padding: 45px 0;
-}
-
-.location .location-item {
-    display: flex;
-    margin-bottom: 30px;
-}
-
-.location .location-item i {
-    padding-top: 3px;
-    font-size: 30px;
-    color: #2f57a1;
-}
-
-.location .location-text {
-    padding-left: 15px;
-}
-
-.location .location-text h3 {
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.location .location-text p {
-    margin-bottom: 5px;
-}
-
-.location .location-text p strong {
-    margin-right: 5px;
-    font-weight: 600;
-}
-
-.location .location-form {
-    padding: 45px 30px;
-    background: #2f57a1;
-    border-radius: 5px;
-}
-
-.location .location-form h3 {
-    color: #ffffff;
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 25px;
-}
-
-.location .location-form .control-group {
-    margin-bottom: 15px;
-}
-
-.location .location-form .form-control {
-    height: 45px;
-    color: #ffffff;
-    padding: 0 15px;
-    border-radius: 5px;
-    border: 1px solid #ffffff;
-    background: transparent;
-}
-
-.location .location-form textarea.form-control {
-    height: 120px;
-    padding: 15px;
-}
-
-.location .location-form .form-control::placeholder {
-    color: #ffffff;
-    opacity: 1;
-}
-
-.location .location-form .form-control:-ms-input-placeholder,
-.location .location-form .form-control::-ms-input-placeholder {
-    color: #ffffff;
-}
-
-.location .location-form .btn.btn-custom {
-    width: 100%;
-    color: #2f57a1;
-    background: #ffffff;
-    box-shadow: inset 0 0 0 0 #202C45;
-}
-
-.location .location-form .btn.btn-custom:hover {
-    color: #ffffff;
-    background: #2f57a1;
-    box-shadow: inset 400px 0 0 0 #202C45;
-}
-
-@media(min-width: 576px) and (max-width: 991.89px) {
-    .location .location-form .btn.btn-custom:hover {
-        box-shadow: inset 650px 0 0 0 #202C45;
-    }
-}
 
 
 /*******************************/
@@ -1936,11 +1715,10 @@ a:focus {
 }
 
 .footer .footer-social {
+    display: flex;
     position: relative;
     margin-top: 20px;
-    display: flex;
 }
-
 .footer .footer-social a {
     width: 40px;
     height: 40px;
@@ -2020,7 +1798,6 @@ a:focus {
 
 .footer-address, .footer-email{
     display: flex;
-    
     gap: 1em;
 }
 
