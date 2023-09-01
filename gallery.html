@@ -30,14 +30,6 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" as="style"
-        href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap">
-    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');"
-        href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap">
-    <noscript>
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap">
-    </noscript>
     <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');"
         href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700;800;900&display=swap">
     <noscript>
@@ -55,217 +47,12 @@
     <!-- CSS Libraries -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <!-- <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <style>
-        :root {
-            --primary-color: #002d5b;
-            --second-color: #ff656a;
-            --white: #ffffff;
-            --dark: #506172;
-            --bgcolor: #f6f9fe;
-            --primary-font: 'Rubik', sans-serif;
-            --second-font: 'Sarabun', sans-serif;
-        }
-        html {
-            scroll-behavior: smooth
-        }
-
-        body {
-            box-sizing: border-box
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-size: 42px;
-            font-family: var(--primary-font);
-            line-height: 1.5;
-            width: 100%;
-            margin-bottom: 0
-        }
-
-        ol,
-        p,
-        ul {
-            font-family: var(--second-font)
-        }
-
-        p {
-            text-align: justify;
-            font-size: 16px;
-            line-height: 30px;
-            margin-bottom: 0;
-            
-        }
-
-
-        .photo-gallery-item span,
-        a {
-            font-family: var(--primary-font)
-        }
-
-        a {
-            text-decoration: none !important
-        }
-
-        img {
-            width: 100%;
-            height: auto
-        }
-
-        .spad {
-            padding: 90px 0
-        }
-
-
-
-
-
-        .photo-gallery-item span {
-            background-color: var(--primary-color);
-            padding: 10px 0
-        }
-
-
-
-
-
-        .photo-gallery-inside {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            justify-content: center
-        }
-
-        .photo-gallery-item {
-            width: 30%;
-            border: 1px solid #a5a5a530;
-            padding: 10px;
-        }
-
-        .photo-gallery-item span {
-            text-align: center;
-            display: block;
-            color: var(--bgcolor);
-            margin-bottom: 10px
-        }
-
-        @media only screen and (max-width:1024px) {
-
-            .newsletter .title,
-            .newsletter form {
-                width: 100%;
-                text-align: center
-            }
-
-            .newsletter .form-row {
-                justify-content: center;
-                margin-top: 20px
-            }
-        }
-
-        @media only screen and (max-width:991px) {
-
-            .main-header,
-            .nav-inside,
-            .navbar-toggler {
-                display: block
-            }
-
-            .nav-inside,
-            .nav-items {
-                max-height: 80px
-            }
-
-            .navbar-brand img {
-                max-width: 250px;
-                max-height: 70px
-            }
-
-            .navbar-collapse .navbar-nav {
-                flex-direction: column;
-                opacity: 0;
-                height: 0;
-                transition: .5s;
-                visibility: hidden
-            }
-
-            .navbar-collapse.show .navbar-nav {
-                height: 100%;
-                visibility: visible;
-                opacity: 1;
-               
-                z-index: 1;
-                padding: 15px
-            }
-
-            .navbar-collapse.show .navbar-nav .dropdown-menu {
-                position: relative;
-                top: 10px;
-                left: 10px;
-                max-width: 100%
-            }
-
-            .dropdown:after {
-                top: 10px
-            }
-
-            .photo-gallery-item {
-                width: 28%
-            }
-
-            .footer-items:first-child {
-                width: 100%
-            }
-        }
-
-        @media only screen and (max-width:768px) {
-            
-
-            .photo-gallery-item {
-                width: 43.5%
-            }
-        }
-
-        @media only screen and (max-width:767px) {
-            
-
-            .footer-items {
-                width: 100%
-            }
-        }
-
-        @media only screen and (max-width:575px) {
-            h1 {
-                font-size: 36px
-            }
-
-            p {
-                font-size: 14px;
-                line-height: 28px;
-            }
-
-            .spad {
-                padding: 40px 0
-            }
-
-            .main-footer {
-                padding: 20px 0
-            }
-
-            .photo-gallery-item {
-                width: 100%
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -276,7 +63,8 @@
                 <div class="col-lg-4 col-md-12">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="/template/img/logo.webp" alt="Logo">
+                            <img src="https://web.socialsparsh.com/weybee-in/images/weybee-solutions-pvt-ltd.webp"
+                                alt="WeyBee Solutions Pvt. Ltd." width="100%" height="100%" itemprop="image">
                         </a>
                     </div>
                 </div>
@@ -323,8 +111,8 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto">
                         <a href="index.html" class="nav-item nav-link ">Home</a>
-                        <a href="about.html" class="nav-item nav-link ">About</a>
-                        <div class="nav-item dropdown ">
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Products</a>
                             <div class="dropdown-menu">
                                 <a href="web-application-development.html" class="dropdown-item">Web Application
@@ -338,14 +126,13 @@
                         <a href="gallery.html" class="nav-item nav-link active">Gallery</a>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
-
-                </div>
-                <div class="nav-social">
-                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn" href=""><i class="fab fa-youtube"></i></a>
-                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <div class="nav-social">
+                        <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -370,74 +157,30 @@
     <!-- Page Header End -->
 
 
-    <div class="photo-gallery spad">
-        <div class="container">
-            <div class="photo-gallery-inside">
-                <div class="photo-gallery-item">
-                    <span>Image Title</span>
-                    <a href="images/gallery.jpg" data-lightbox="photos">
-                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
-                    </a>
-                </div>
-                <div class="photo-gallery-item">
-                    <span>Image Title</span>
-                    <a href="images/gallery.jpg" data-lightbox="photos">
-                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
-                    </a>
-
-                </div>
-                <div class="photo-gallery-item">
-                    <span>Image Title</span>
-                    <a href="images/gallery.jpg" data-lightbox="photos">
-                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
-                    </a>
-
-                </div>
-                <div class="photo-gallery-item">
-                    <span>Image Title</span>
-                    <a href="images/gallery.jpg" data-lightbox="photos">
-                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
-                    </a>
-
-                </div>
-                <div class="photo-gallery-item">
-                    <span>Image Title</span>
-                    <a href="images/gallery.jpg" data-lightbox="photos">
-                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
-                    </a>
-
-                </div>
-                <div class="photo-gallery-item">
-                    <span>Image Title</span>
-                    <a href="images/gallery.jpg" data-lightbox="photos">
-                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
-                    </a>
-
-                </div>
-                <div class="photo-gallery-item">
-                    <span>Image Title</span>
-                    <a href="images/gallery.jpg" data-lightbox="photos">
-                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
-                    </a>
-
-                </div>
-                <div class="photo-gallery-item">
-                    <span>Image Title</span>
-                    <a href="images/gallery.jpg" data-lightbox="photos">
-                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
-                    </a>
-
-                </div>
-                <div class="photo-gallery-item">
-                    <span>Image Title</span>
-                    <a href="images/gallery.jpg" data-lightbox="photos">
-                        <img class="img-fluid" src="img/logo.webp" width="350px" height="233px" alt="Social-Parsh">
-                    </a>
-
-                </div>
-            </div>
-        </div>
-    </div>
+     <!-- Gallery Section Here-->
+		<div class="photo-gallery spad">
+			<div class="container">
+				<div class="photo-gallery-inside">
+					<div class="photo-gallery-item">
+                        <span>Showcase 1</span>
+						<a href="https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1.webp" data-lightbox="photos">
+							<img class="img-fluid" loading="lazy" src="https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1.webp" srcset="https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1-320.webp 320w, https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1-768.webp 768w, https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1-1024.webp 1024w" width="100%" height="100%" alt="Showcase 1">
+                        </a>
+					</div>
+                    <div class="photo-gallery-item">
+                        <span>Showcase 1</span>
+						<a href="https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1.webp" data-lightbox="photos">
+							<img class="img-fluid" loading="lazy" src="https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1.webp" srcset="https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1-320.webp 320w, https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1-768.webp 768w, https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1-1024.webp 1024w" width="100%" height="100%" alt="Showcase 1">
+                        </a>
+					</div><div class="photo-gallery-item">
+                        <span>Showcase 1</span>
+						<a href="https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1.webp" data-lightbox="photos">
+							<img class="img-fluid" loading="lazy" src="https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1.webp" srcset="https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1-320.webp 320w, https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1-768.webp 768w, https://web.socialsparsh.com/weybee-in/images/gallery-showcase-1-1024.webp 1024w" width="100%" height="100%" alt="Showcase 1">
+                        </a>
+					</div>
+				</div>
+			</div>
+		</div>
     <!-- Gallery Section End-->
 
     <!-- Footer Start -->
@@ -498,7 +241,8 @@
             </div>
         </div>
         <div class="container copyright">
-            <p>Copyright&copy; 2023 Lorem Ipsum All rights reserved.</a><br>Powered By <a href="https://socialsparsh.com">Social Sparsh</a></p>
+            <p>Copyright&copy; 2023 Lorem Ipsum All rights reserved.</a><br>Powered By <a
+                    href="https://socialsparsh.com">Social Sparsh</a></p>
         </div>
     </div>
     <!-- Footer End -->
