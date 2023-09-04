@@ -25,7 +25,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #2f57a1;
+    color: #eb0f0f;
     outline: none;
     text-decoration: none;
 }
@@ -37,7 +37,7 @@ a:focus {
     font-weight: 500;
     margin: 1em 0;
     color: #ffffff;
-    background: #2f57a1;
+    background: #eb0f0f;
     border: none;
     border-radius: 60px;
     box-shadow: inset 0 0 0 0 #202C45;
@@ -47,7 +47,7 @@ a:focus {
 }
 
 .btn.btn-custom:hover {
-    color: #2f57a1;
+    color: #eb0f0f;
     background: #202C45;
     box-shadow: inset 200px 0 0 0 #202C45;
 }
@@ -98,7 +98,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-    background: #2f57a1;
+    background: #eb0f0f;
 }
 
 
@@ -120,7 +120,7 @@ a:focus {
 
 .top-bar .logo h1 {
     margin: -4px 0 0 0;
-    color: #2f57a1;
+    color: #eb0f0f;
     font-size: 50px;
     line-height: 50px;
     font-weight: 800;
@@ -128,9 +128,7 @@ a:focus {
     font-style: italic;
 }
 
-.top-bar .logo h1 span {
-    color: #202C45;
-}
+
 
 .top-bar .logo img {
     width: auto;
@@ -248,7 +246,7 @@ a:focus {
     flex-shrink: 0;
 }
 .contact-social svg:hover{
-    background-color: #2f57a1;
+    background-color: #eb0f0f;
     border-radius: 1em;
 }
 .contact-details-icon svg{
@@ -309,7 +307,7 @@ a:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #2f57a1;
+    color: #eb0f0f;
 }
 
 .nav-bar .dropdown-menu {
@@ -322,13 +320,13 @@ a:focus {
 .nav-bar .btn.btn-custom {
     color: #202C45;
     background: #ffffff;
-    box-shadow: inset 0 0 0 0 #2f57a1;
+    box-shadow: inset 0 0 0 0 #eb0f0f;
 }
 
 .nav-bar .btn:hover {
     color: #ffffff;
-    background: #2f57a1;
-    box-shadow: inset 200px 0 0 0 #2f57a1;
+    background: #eb0f0f;
+    box-shadow: inset 200px 0 0 0 #eb0f0f;
 }
 
 @media (min-width: 992px) {
@@ -420,7 +418,7 @@ a:focus {
 }
 
 .carousel .carousel-text h3 {
-    color: #2f57a1;
+    color: #eb0f0f;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 4px;
@@ -449,7 +447,7 @@ a:focus {
 }
 
 .carousel .btn.btn-custom:hover {
-    color: #2f57a1;
+    color: #eb0f0f;
 }
 
 .carousel .owl-nav {
@@ -488,7 +486,7 @@ a:focus {
 .carousel .owl-nav .owl-prev:hover,
 .carousel .owl-nav .owl-next:hover {
     color: #ffffff;
-    background: #2f57a1;
+    background: #eb0f0f;
 }
 
 .carousel .animated {
@@ -591,7 +589,7 @@ a:focus {
 }
 
 .page-header a:hover {
-    color: #2f57a1;
+    color: #eb0f0f;
 }
 
 .page-header a::after {
@@ -657,7 +655,7 @@ a:focus {
     font-weight: 700;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #2f57a1;
+    color: #eb0f0f;
 }
 
 .section-header p::after {
@@ -667,7 +665,7 @@ a:focus {
     height: 2px;
     left: 25%;
     bottom: 0;
-    background: #2f57a1;
+    background: #eb0f0f;
 }
 
 .section-header.text-left p::after {
@@ -745,7 +743,7 @@ a:focus {
 
 .about .about-content ul li i {
     margin-right: 8px;
-    color: #2f57a1;
+    color: #eb0f0f;
 }
 
 
@@ -777,7 +775,7 @@ a:focus {
     margin: 0;
     font-size: 60px;
     line-height: 60px;
-    background-image: linear-gradient(#2f57a1, #202C45);
+    background-image: linear-gradient(#eb0f0f, #202C45);
     -webkit-text-fill-color: transparent;
     transition: .5s;
 }
@@ -818,7 +816,7 @@ a:focus {
 .facts .facts-item i {
     margin-top: 15px;
     font-size: 45px;
-    color: #2f57a1;
+    color: #eb0f0f;
 }
 
 .facts .facts-text {
@@ -892,7 +890,7 @@ a:focus {
 }
 
 .team .team-item:hover .team-text {
-    background: #2f57a1;
+    background: #eb0f0f;
 }
 
 .team .team-text h2 {
@@ -933,7 +931,7 @@ a:focus {
 }
 
 .team .team-item:hover .team-social a {
-    background: #2f57a1;
+    background: #eb0f0f;
 }
 
 .team .team-social a:hover {
@@ -1004,7 +1002,7 @@ a:focus {
     font-size: 25px;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: #2f57a1;
+    color: #eb0f0f;
     margin-right: 10px;
 }
 
@@ -1023,7 +1021,7 @@ a:focus {
 }
 
 .testimonial .owl-dot.active {
-    background: #2f57a1;
+    background: #eb0f0f;
 }
 
 
@@ -1101,7 +1099,7 @@ a:focus {
 }
 
 .blog .blog-text h3 a:hover {
-    color: #2f57a1;
+    color: #eb0f0f;
 }
 
 .blog .blog-text p {
@@ -1139,7 +1137,7 @@ a:focus {
 }
 
 .blog .blog-meta a:hover {
-    color: #2f57a1;
+    color: #eb0f0f;
 }
 
 .blog .pagination {
@@ -1154,7 +1152,7 @@ a:focus {
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
-    color: #2f57a1;
+    color: #eb0f0f;
     background: #202C45;
 }
 
@@ -1285,8 +1283,8 @@ a:focus {
 
 .single .single-tags a:hover {
     color: #ffffff;
-    background: #2f57a1;
-    border-color: #2f57a1;
+    background: #eb0f0f;
+    border-color: #eb0f0f;
 }
 
 .single .single-bio {
@@ -1353,7 +1351,7 @@ a:focus {
 
 .single .single-bio-social a:hover {
     color: #ffffff;
-    background: #2f57a1;
+    background: #eb0f0f;
 }
 
 .single .single-related {
@@ -1402,7 +1400,7 @@ a:focus {
 }
 
 .single .post-item .post-text a:hover {
-    color: #2f57a1;
+    color: #eb0f0f;
 }
 
 .single .post-item .post-meta {
@@ -1453,7 +1451,7 @@ a:focus {
 .single .related-slider .owl-nav .owl-prev:hover,
 .single .related-slider .owl-nav .owl-next:hover {
     color: #ffffff;
-    background: #2f57a1;
+    background: #eb0f0f;
 }
 
 .single .single-comment {
@@ -1519,7 +1517,7 @@ a:focus {
 
 .single .comment-text .btn:hover {
     color: #ffffff;
-    background: #2f57a1;
+    background: #eb0f0f;
 }
 
 .single .comment-form {
@@ -1550,7 +1548,7 @@ a:focus {
 
 .single .comment-form input:focus,
 .single .comment-form textarea:focus {
-    border-color: #2f57a1;
+    border-color: #eb0f0f;
 }
 
 .single .comment-form .btn {
@@ -1584,7 +1582,7 @@ a:focus {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #2f57a1;
+    color: #eb0f0f;
 }
 
 .footer .footer-link a {
@@ -1602,7 +1600,7 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-    color: #2f57a1;
+    color: #eb0f0f;
     letter-spacing: 1px;
 }
 
@@ -1635,7 +1633,7 @@ a:focus {
 
 .footer .footer-social a:hover {
     color: #ffffff;
-    background: #2f57a1;
+    background: #eb0f0f;
 }
 
 .footer .footer-newsletter form {
@@ -1663,13 +1661,13 @@ a:focus {
     width: 100%;
     color: #202C45;
     background: #ffffff;
-    box-shadow: inset 0 0 0 0 #2f57a1;
+    box-shadow: inset 0 0 0 0 #eb0f0f;
 }
 
 .footer .footer-newsletter .btn:hover {
     color: #ffffff;
-    background: #2f57a1;
-    box-shadow: inset 200px 0 0 0 #2f57a1;
+    background: #eb0f0f;
+    box-shadow: inset 200px 0 0 0 #eb0f0f;
 }
 
 .footer .copyright {
@@ -1684,7 +1682,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #2f57a1;
+    color: #eb0f0f;
     font-weight: 700;
     letter-spacing: 1px;
 }
