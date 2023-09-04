@@ -75,24 +75,29 @@ a:focus {
     display: none;
     width: 44px;
     height: 44px;
+    transform: rotate(90deg);
     text-align: center;
     line-height: 1;
     font-size: 22px;
     right: 15px;
     bottom: 15px;
     transition: .5s;
-    background: #2f57a1;
+    background: white;
     border-radius: 44px;
     z-index: 9;
 }
 
 .back-to-top i {
-    color: #ffffff;
+    color: #ffffff; 
     padding-top: 10px;
+}
+.back-to-top svg{
+    border: 2px solid black;
+    border-radius: 50%;
 }
 
 .back-to-top:hover {
-    background: #202C45;
+    background: #2f57a1;
 }
 
 
@@ -193,13 +198,12 @@ a:focus {
     z-index: 999;
 }
 
-.contact-social{
+.contact-social, .update-social{
     padding: 0;
-    margin-top: 10px;
-    
+    margin-top: 10px; 
 }
 
-.contact-social ul{
+.contact-social ul, .update-social ul{
     padding: 0;
     list-style: none;
     margin: 0;
@@ -207,16 +211,16 @@ a:focus {
     gap: 1vh;
 }
 
-.contact-social li{
+.contact-social li, .update-social li{
     list-style: none;
     padding: 0;
     margin: 0;
 }
-.contact-social li svg{
+.contact-social li svg, .update-social li svg{
     padding: 5px;
 }
 
-.contact-social a{
+.contact-social a, .update-social a{
     padding: 0;
     margin: 0;
     list-style: none;
@@ -1111,7 +1115,7 @@ a:focus {
 }
 
 .blog .blog-meta p {
-    margin: 1em 0;
+    margin-top: 2vh;
     font-size: 14px;
     line-height: 14px;
 
@@ -1725,6 +1729,25 @@ a:focus {
     font-weight: 500;
 }
 
+.blog-meta .footer-social{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Barlow', sans-serif;
+    box-sizing: border-box;
+    color: #202C45;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none!important;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: .5s;
+    display: block;
+    background-color: white;
+}
+
 /* Gallery tab */
 .spad {
     padding: 90px 0;
@@ -1760,3 +1783,4 @@ a:focus {
     width: 100%;
     height: auto;
 }
+
