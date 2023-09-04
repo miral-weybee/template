@@ -107,7 +107,7 @@ a:focus {
 /**********************************/
 .top-bar {
     position: relative;
-    /* height: 75px; */
+    height: 70px;
     display: flex;
     align-items: center;
     background: #ffffff;
@@ -808,7 +808,7 @@ a:focus {
 .facts .facts-item {
     display: flex;
     flex-direction: row;
-    margin: 25px 0;
+    margin: 25px 50px;
     
     
 }
@@ -1766,3 +1766,7 @@ a:focus {
     height: auto;
 }
 
+.fact-container{
+    display: flex;
+    justify-content: center;
+}
