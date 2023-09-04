@@ -834,7 +834,6 @@ a:focus {
 
 .facts .facts-text h3::after {
     position: absolute;
-    content: "\f067";
     top: 0px;
     right: -25px;
     color: #ffffff;
