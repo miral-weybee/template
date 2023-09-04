@@ -35,6 +35,7 @@ a:focus {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
+    margin: 1em 0;
     color: #ffffff;
     background: #2f57a1;
     border: none;
@@ -1114,7 +1115,7 @@ a:focus {
 
 .blog .blog-meta p {
     margin-top: 2vh;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 14px;
 
 }
@@ -1750,7 +1751,7 @@ a:focus {
 }
 
 .photo-gallery-item {
-    width: 30%;
+    width: 35vh;
     border: 1px solid #a5a5a530;
     padding: 10px;
 }
