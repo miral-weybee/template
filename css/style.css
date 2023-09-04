@@ -195,7 +195,7 @@ a:focus {
 
 .contact-social{
     padding: 0;
-    margin: 0;
+    margin-top: 10px;
     
 }
 
@@ -204,13 +204,16 @@ a:focus {
     list-style: none;
     margin: 0;
     display: flex;
-    gap: 15px;
+    gap: 1vh;
 }
 
 .contact-social li{
     list-style: none;
     padding: 0;
     margin: 0;
+}
+.contact-social li svg{
+    padding: 5px;
 }
 
 .contact-social a{
@@ -240,7 +243,8 @@ a:focus {
     flex-shrink: 0;
 }
 .contact-social svg:hover{
-    background-color: #2f57a1
+    background-color: #2f57a1;
+    border-radius: 1em;
 }
 .contact-details-icon svg{
     color: #506172;
@@ -248,11 +252,34 @@ a:focus {
     font-size: 16px;
     margin: 0;
     fill: white;
-    padding: 5px;
+    padding: 7px;
     width: 40px;
     height: 40px;
 }
 
+.footer-contact-details-icon{
+    line-height: 1.7;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: .3s;
+    background-color: white;
+    display: block;
+    flex-shrink: 0;
+}
+.footer-contact-details-icon svg{
+    color: #506172;
+    line-height: 1.7;
+    font-size: 16px;
+    margin: 0;
+    fill: black;
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+}
 
 
 .nav-bar .navbar {
@@ -1679,9 +1706,10 @@ a:focus {
 }
 
 .footer-address,
-.footer-email {
+.footer-email,.footer-phoneno {
     display: flex;
-    gap: 1em;
+    gap: 0.5em;
+    align-items: center;
 }
 
 .vision-mission {
