@@ -1567,7 +1567,7 @@ a:focus {
 .footer .footer-contact h2,
 .footer .footer-link h2,
 .footer .footer-newsletter h2 {
-    margin-bottom: 30px;
+    margin: 30px 0;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -1758,4 +1758,15 @@ a:focus {
 .fact-container{
     display: flex;
     justify-content: center;
+}
+
+.footer-logo img{
+    width: auto;
+    max-width: 100%;
+    max-height: 90px;
+    margin: 30px 0;
+}
+
+.footer-content p{
+    color: white;
 }
