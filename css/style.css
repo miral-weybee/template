@@ -116,21 +116,13 @@ a:focus {
 .top-bar .logo {
     text-align: left;
     overflow: hidden;
-    height: 100px;
-    min-height: 50px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    align-items: center;
-    max-height: 80px;
 }
 
-
-
-.top-bar .logo img {
-    width: 100%;
+.top-bar .logo img{
     height: auto;
+    width: auto;
 }
+
 
 .top-bar .top-bar-item {
     display: flex;
