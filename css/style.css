@@ -3,7 +3,7 @@
 /*******************************/
 body {
     color: #444444;
-    font-weight: 400;
+    font-weight: 500;
     background: #ffffff;
     font-family: 'Barlow', sans-serif;
 }
@@ -1102,9 +1102,9 @@ a:focus {
 
 .blog .blog-meta p {
     margin-top: 2vh;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 14px;
-
+    font-weight: 800;
 }
 
 .blog .blog-meta p:first-child {
