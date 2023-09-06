@@ -761,7 +761,7 @@ a:focus {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 45px;
+    margin-bottom: 4vh;
 }
 
 .service .service-item i {
@@ -1951,4 +1951,15 @@ a:focus {
     display: block;
     background-color: black;
     fill: white;
+}
+
+.pdetails{
+    margin-top: 1vh;
+}
+.text-link{
+    transition: .5s;
+    color: red;
+    font-weight: 500;
+    font-size: 2.5vh;
+    padding: .5vh 0;
 }
