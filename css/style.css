@@ -478,6 +478,10 @@ a:focus {
     margin-right: 30px;
 }
 
+.owl-next svg{
+    transform: rotate(180deg);
+}
+
 .carousel .owl-nav .owl-prev:hover,
 .carousel .owl-nav .owl-next:hover {
     color: #ffffff;
