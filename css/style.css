@@ -1608,33 +1608,11 @@ a:focus {
     width: 25px;
 }
 
-.footer .footer-social {
-    display: flex;
-    position: relative;
-    margin-top: 20px;
-}
 
-.footer .footer-social a {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #202C45;
-    background: #ffffff;
-    border-radius: 40px;
-    margin-right: 5px;
-    transition: .5s;
-}
 
-.footer .footer-social a:last-child {
-    margin: 0;
-}
 
-.footer .footer-social a:hover {
-    color: #ffffff;
-    background: #eb0f0f;
-}
+
+
 
 .footer .footer-newsletter form {
     position: relative;
@@ -1711,29 +1689,8 @@ a:focus {
     font-weight: 500;
 }
 
-.blog-meta .footer-social{
-    font-size: 1rem;
-    line-height: 1.5;
-    font-weight: 400;
-    font-family: 'Barlow', sans-serif;
-    box-sizing: border-box;
-    color: #202C45;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-decoration: none!important;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    transition: .5s;
-    display: block;
-    background-color: white;
-}
 
-/* Gallery tab */
-.spad {
-    padding: 90px 0;
-}
+
 
 .container {
     max-width: 1170px;
@@ -1953,13 +1910,10 @@ a:focus {
     fill: white;
 }
 
-.pdetails{
-    margin-top: 1vh;
-}
+
 .text-link{
     transition: .5s;
     color: red;
     font-weight: 500;
-    font-size: 2.5vh;
     padding: .5vh 0;
 }
